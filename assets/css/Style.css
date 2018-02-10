@@ -1,0 +1,504 @@
+
+.emailcontainer{
+margin-left: 25px;
+background-color:white;
+text-align: left;
+}
+
+input{
+margin-top:10px;
+margin-bottom:10px;
+margin-left:20px;
+margin-right:20px;
+float:center;
+width:600px;
+}
+
+#message{
+position:relative;
+height:200px;
+margin-bottom: 10px;
+
+}
+
+
+button{
+    float:left;
+    background-color:#4aaaa5;
+    color:white; 
+    margin-left:20px;
+    height:30px;
+}
+
+
+.heading_block {
+    height: 10%;
+    position: fixed;
+    width: 98%;
+    float:center;
+    background-color:white;
+    overflow:visible;
+}
+
+
+.H_font{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5 ;
+}
+
+
+
+.P_font{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777  ;
+}
+
+#name{
+    top:0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 400px;
+    height: 10%;
+    left: 5%;
+    position:fixed;
+    text-align: center;
+    float: left;
+    color: white;
+    background-color:#4aaaa5; 
+    font-size: 40px;
+    
+}
+
+#about_title{
+    color: #4aaaa5;
+    text-align: left; 
+}
+
+.menu{
+margin-top: 25PX;
+z-index: 20;    
+
+float: left;
+margin-left:850;
+}
+
+
+.page_container{
+position:fixed;
+width: 90%;
+left:5%;
+right:5%;
+float:center;
+margin-top:5%;
+background-color:#ececec;
+height: 100%;
+}
+
+body{
+    background-color:white;
+}   
+
+
+#aboutmeimg{
+    position: relative;
+    float: left;
+    height:200px;
+    width:200px;
+    top:30px;
+    margin: 10px;
+   
+}
+
+.About_me_block{
+ 
+    top: 80px;
+    left: 80px;
+    height: 460px;
+    right: auto;
+    width:650px;
+    position: relative;
+    background-color:white;
+    text-align: center;
+    float: left;
+    }
+
+
+#about_me_p{
+    text-align: justify;
+    margin:15px;
+
+}
+
+.connect_block{
+
+    height: 140px;
+    top: 80px;
+    left: 120px;
+    position: relative;  
+    Float:left;
+    width: 270px;
+    text-align: center;
+    background-color: white;
+}
+
+Footer{
+
+    top: 90%;
+    width: 90%;
+    height: 10%;
+    padding-top:15px;
+    position:fixed;
+    background-color: #666;
+    text-align: center;}
+
+#git{
+    position: relative;
+    float:left;
+    left: 20px;
+background-color: black;
+width:50px;
+height: 50px;
+}
+
+
+
+#linkedin{
+    position: relative;
+    float:center;
+width:50px;
+height: 50px;
+}
+
+
+#stackoverflow{
+    position: relative;
+    float:right;
+    right: 20px;
+width:50px;
+height: 50px;
+}
+
+
+#project_box{
+    overflow: scroll;
+}
+
+.subbox{
+    height:130px;
+    width: 250px;
+    float:left;
+    margin:10px;
+}
+
+.prj{
+    height:130px;
+    width: 250px;
+    position:relative;
+}
+
+
+
+.prjtitle{
+    top:-40px;
+    width: 250px;
+    height:30px;
+    color: white;
+    background-color:#4aaaa5; 
+    position: relative;
+    z-index: 10;
+    overflow: hidden;}
+
+
+    #subbox{
+background-color: white;
+    
+    }
+
+
+
+    @media all and (max-width: 640px) {
+    
+
+        
+.About_me_block{
+ width:300px;
+ overflow:scroll;
+ margin:10px;
+ top:10px;
+ left:10px; 
+}
+
+.connect_block{
+left:10px;
+width:150px;
+margin-top: 10px;
+margin-left:0px;
+height:80px;
+}
+
+
+.page_container{
+ overflow: scroll;
+ margin-top: 5%;
+ z-index: 0;
+}
+
+
+#git{
+width:30px;
+height: 30px;
+left:5px;
+}
+
+
+
+#linkedin{
+    width:30px;
+    height: 30px;
+
+}
+
+
+#stackoverflow{
+    width:30px;
+    height: 30px;
+    right:5px;
+}
+
+
+.heading_block {
+    height: 5%;
+    width: 100%;
+}
+
+
+.H_font{
+    font-size: 15px;
+}
+
+
+#aboutmeimg{
+height: 60px;
+width: 60px;
+margin:20px;
+top:10px;
+
+}
+
+#name{
+    padding:0px;
+    font-size: 20px;
+    width:30%;
+}
+
+
+
+.menu{   
+ 
+    margin-left:60%;
+    font-size: 15px;
+    margin-top:0px;
+
+
+   }
+
+
+
+Footer{
+    height: 5%;
+    }
+
+.prj{
+    height: 100px;
+    width: 100px;
+}
+
+.prjtitle{
+
+    width: 100px;
+    float:center;
+    top:-40px;
+}
+
+
+
+.subbox{
+    height:100px;
+    width: 100px;
+    float:left;
+    margin:10px;
+}
+
+
+
+.emailcontainer{
+
+    width:200px;
+    margin-left:25px;
+    padding:0px;
+    float: left;
+}
+
+
+
+}
+
+@media all and (max-width: 768px) and (min-width: 641px) {
+    
+.About_me_block{
+    width:400px;
+    overflow:scroll;
+    margin:10px;
+    top:10px;
+    left:10px; 
+   }
+   
+   .connect_block{
+   left:10px;
+   width:250px;
+   margin-top: 10px;
+   margin-left:0px;
+   height:120px;
+   }
+   
+   
+   .page_container{
+    overflow: scroll;
+    margin-top: 5%;
+    z-index: 0;
+   }
+   
+   
+   #git{
+   width:40px;
+   height: 40px;
+   left:10px;
+   }
+   
+   
+   
+   #linkedin{
+       width:40px;
+       height: 40px;
+   
+   }
+   
+   
+   #stackoverflow{
+       width:40px;
+       height: 40px;
+       right:10px;
+   }
+   
+   
+   .heading_block {
+       height: 5%;
+       width: 100%;
+   }
+   
+   
+   .H_font{
+       font-size: 25px;
+   }
+   
+   
+   #aboutmeimg{
+   height: 100px;
+   width: 100px;
+   margin:20px;
+   top:10px;
+   
+   }
+   
+   #name{
+       padding:0px;
+       font-size: 25px;
+       width:30%;
+   }
+   
+   
+   
+   .menu{   
+    
+       margin-left:60%;
+       font-size: 15px;
+       margin-top:0px;
+   
+   
+      }
+   
+   
+   
+   Footer{
+       height: 5%;
+       }
+   
+   .prj{
+       height: 100px;
+       width: 100px;
+   }
+   
+   .prjtitle{
+   
+       width: 100px;
+       float:center;
+       top:-40px;
+   }
+   
+   
+   
+   .subbox{
+       height:100px;
+       width: 100px;
+       float:left;
+       margin:10px;
+   }
+   
+   
+   
+   .emailcontainer{
+   
+       width:300px;
+       margin-left:25px;
+       padding:0px;
+       float: left;
+   }
+}
+
+
+@media all and (max-width: 980px) and (min-width: 769px) {
+
+    .About_me_block{
+    
+     
+        margin:10px;
+        width:500px;
+    
+        left:10px; 
+       }
+       
+       .connect_block{
+       left:10px;
+       margin-top: 10px;
+       margin-left:0px;
+       }
+    
+       .emailcontainer{
+        width:450px;
+
+       }
+
+       .menu{   
+    
+        margin-left:70%;
+       
+       
+    
+       }
+
+}
+
+
+
